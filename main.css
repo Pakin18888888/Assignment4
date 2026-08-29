@@ -9,7 +9,7 @@
 	--space-xxl: 3rem;
 }
 
-body{
+body {
 	font-family: 'Josefin Sans', sans-serif;
 	margin: var(--space-xl);
 }
@@ -33,7 +33,7 @@ header ul li {
 	font-size: var(--space-sm);
 }
 
-header h1{
+header h1 {
 	font-size: var(--space-md);
 	margin: var(--space-md) 0;
 }
@@ -99,9 +99,12 @@ header img {
 }
 
 @media only screen and (max-width: 480px) {
-	.grid-container {}
+	.grid-container {
+		gid-template-columns: 1fr;
+		gap: var(--space-md);
+	}
 
-	#header {}
-
-	#footer {}
+	#header, #main1, #main2, #right, #footer {
+		grid-column: 1 / span 1;
+	}
 }
