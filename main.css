@@ -78,7 +78,7 @@ header h1 {
 .main1 {
 	display: block;
 	align-items: center;
-	justify-items: center;
+	justify-content: center;
 	/* margin-bottom: var(--space-xl); */
 }
 
