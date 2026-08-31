@@ -16,8 +16,8 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
 	margin: 0;
-	padding: var(--space-md) var(--space-xl);
-	background-color: var(--primary);
+	padding: var(--space-xl) var(--space-xxl);
+	background-image: linear-gradient(180deg, var(--primary), var(--primary-light));
 	color: var(--primary-light);
 }
 
@@ -26,6 +26,8 @@ header {
 	align-items: center;
 	justify-content: center;
 	gap: var(--space-xxl);
+	/* position: fixed; */
+	/* transform: translateX(-50%); */
 }
 
 header ul {
@@ -42,8 +44,12 @@ header ul li {
 }
 
 header ul li a {
+	padding: var(--space-xs);
+	background-color: var(--primary-light);
 	text-decoration: none;
 	color: black;
+	border-radius: 10px;
+	border-bottom: 3px solid #D94800;
 }
 
 header h1 {
@@ -65,13 +71,12 @@ header h1 {
 
 .grid-container>div {
 	/* display: flex;	 */
-	background-color: rgba(255, 255, 255, 0.858);
+	background-color: var(--primary-light);
 	backdrop-filter: blur(10px);
 	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	/* justify-content: center; */
-	/* align-items: center; */
-	text-align: center;
+	box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	justify-content: center;
+	align-items: center;
 	padding: var(--space-xl);
 }
 
@@ -88,7 +93,18 @@ header h1 {
 	border-radius: 10px;
 }
 
+.main2 {
+	text-align: left;
+}
+
+.main2 img {
+	width: 50%;
+	height: auto;
+	border-radius: 10px;
+}
+
 #header {
+	border-right: 13px solid var(--primary-dark);
 	grid-column: 1 / span 3;
 }
 
@@ -151,7 +167,7 @@ header h1 {
 	.main1 {
 		display: flex;
 		align-items: center;
-		justify-items: center;
+		justify-content: center;
 		gap: var(--space-lg);
 	}
 
