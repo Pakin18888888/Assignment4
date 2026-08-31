@@ -111,7 +111,7 @@ header h1 {
 
 @media only screen and (max-width: 480px) {
 	body {
-		padding: var(--space-md) var(--space-xs);
+		padding: var(--space-sm);
 	}
 
 	header ul li{
