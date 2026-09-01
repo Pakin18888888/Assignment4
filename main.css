@@ -271,13 +271,20 @@ img {
 
   .text {
     display: block;
+    align-items: center;
+    justify-items: center;
   }
 
   .main1 img {
-    width: 50%;
+    width: 70%;
     height: auto;
     display: block;
     margin-bottom: var(--space-md);
+  }
+
+  .main1 h1 {
+    box-shadow:
+      0 1px 10px 0 rgba(0, 0, 0, 0.2)
   }
 
   /* =========================
@@ -294,7 +301,7 @@ img {
   }
 
   .main2 p {
-    font-size: var(--space-xl);
+    font-size: var(--space-sm);
   }
 
   /* =========================
