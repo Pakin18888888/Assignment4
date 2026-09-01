@@ -121,7 +121,7 @@ header h1 {
 }
 
 .main2 img {
-	width: 100%;
+	width: 150px;
 	height: auto;
 	border-radius: 10px;
 	margin-bottom: var(--space-md);
