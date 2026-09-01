@@ -121,7 +121,7 @@ header h1 {
 }
 
 .main2 img {
-	width: 150px;
+	width: 100%;
 	height: auto;
 	border-radius: 10px;
 	margin-bottom: var(--space-md);
@@ -254,6 +254,23 @@ img {
 
 	.main1 img {
 		width: 50%;
+	}
+
+	.main2{
+		text-align: center;
+		padding: 20px;
+	}
+
+	.main2 img{
+		width: 50%;
+	}
+
+	.main2 p {
+		font-size: var(--space-xl);
+	}
+
+	.right p{
+		margin-right: 400px;
 	}
 
 	#header,
