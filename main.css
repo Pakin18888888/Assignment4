@@ -105,7 +105,7 @@ header h1 {
 	background-color: var(--primary);
 	color: var(--primary-light);
 	padding: var(--space-sm) var(--space-md);
-	margin: 0 500px 30px 500px;
+	margin: 0 400px 30px 400px;
 	border-radius: 10px;
 	border-left: 5px solid var(--primary-light);
 	box-shadow:
@@ -169,7 +169,7 @@ header h1 {
 	transition: var(--transition-smooth);
 }
 
-.footer {
+a, img, .footer {
 	transition: var(--transition-smooth);
 }
 
@@ -177,6 +177,18 @@ header h1 {
 	background-color: var(--primary);
 	color: #ffffff;
 	transform: translateY(-5px);
+	box-shadow: var(--shadow-hover);
+}
+
+header ul li a:hover {
+	background-color: var(--primary);
+	color: #ffffff;
+	transform: translateY(-5px);
+	box-shadow: var(--shadow-hover);
+}
+
+img:hover {
+	transform: translateY(-5px) scale(1.05);
 	box-shadow: var(--shadow-hover);
 }
 
