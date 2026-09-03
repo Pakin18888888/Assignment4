@@ -272,7 +272,7 @@ img {
   .text {
     display: block;
     align-items: center;
-    justify-items: center;
+    /* justify-items: center; */
   }
 
   .main1 img {
