@@ -271,8 +271,9 @@ img {
 
   .text {
     display: block;
-    align-items: center;
-    justify-items: center;
+	align-items: center;
+	justify-items: center;
+	gap: var(--space-md);
   }
 
   .main1 img {
@@ -297,7 +298,7 @@ img {
   }
 
   .main2 img {
-    width: 50%;
+    width: 70%;
   }
 
   .main2 p {
